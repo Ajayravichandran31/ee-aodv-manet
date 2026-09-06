@@ -1,0 +1,15 @@
+# Build artifacts (never commit these)
+*.o
+*.obj
+build/
+cmake-cache/
+
+# Large simulation outputs (regenerate by running the sim, don't store in git)
+*.pcap
+*-netanim.xml
+*-flowmon.xml
+*-energy.csv
+
+# OS/editor junk
+.DS_Store
+*.swp

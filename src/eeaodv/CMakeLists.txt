@@ -1,0 +1,31 @@
+build_lib(
+  LIBNAME eeaodv
+  SOURCE_FILES
+    helper/eeaodv-helper.cc
+    model/eeaodv-dpd.cc
+    model/eeaodv-id-cache.cc
+    model/eeaodv-neighbor.cc
+    model/eeaodv-packet.cc
+    model/eeaodv-routing-protocol.cc
+    model/eeaodv-rqueue.cc
+    model/eeaodv-rtable.cc
+  HEADER_FILES
+    helper/eeaodv-helper.h
+    model/eeaodv-dpd.h
+    model/eeaodv-id-cache.h
+    model/eeaodv-neighbor.h
+    model/eeaodv-packet.h
+    model/eeaodv-routing-protocol.h
+    model/eeaodv-rqueue.h
+    model/eeaodv-rtable.h
+  LIBRARIES_TO_LINK
+    ${libapplications}
+    ${libinternet-apps}
+    ${libwifi}
+  TEST_SOURCES
+    test/eeaodv-id-cache-test-suite.cc
+    test/eeaodv-regression.cc
+    test/eeaodv-test-suite.cc
+    test/loopback.cc
+    test/bug-772.cc
+)
