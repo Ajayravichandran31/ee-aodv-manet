@@ -108,5 +108,5 @@ Academic project — add a license here if you intend to make this reusable (MIT
 
 ## Authors
 
-[Team Member 1 Name], [Team Member 2 Name], [Team Member 3 Name]
-Department of [Department Name], E.G.S. Pillay Engineering College
+[Team Member 1 Ajay], [Team Member 2 Aakash], [Team Member 3 Mohamed Faheem]
+Department of [B.Tech Information Technology], E.G.S. Pillay Engineering College
