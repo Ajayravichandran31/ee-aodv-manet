@@ -108,5 +108,5 @@ Academic project — add a license here if you intend to make this reusable (MIT
 
 ## Authors
 
-[Team Member 1 Ajay], [Team Member 2 Aakash], [Team Member 3 Mohamed Faheem]
-Department of [B.Tech Information Technology], E.G.S. Pillay Engineering College
+Ajay R(8208E23ITR012), Aakash N(8208E23ITR002), Mohamed Faheem S(8208E23ITR072)
+Department of B.Tech Information Technology, E.G.S. Pillay Engineering College
